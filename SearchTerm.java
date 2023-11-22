@@ -4,6 +4,6 @@ public class SearchTerm {
     public SearchTerm(String searchTerm, String timestamp) {
         this.searchTerm = searchTerm;
         this.timestamp = timestamp;
-        System.out.println("Search Term: " + this.searchTerm + ":: Timestamp: " + this.timestamp);
+        //System.out.println("Search Term: " + this.searchTerm + ":: Timestamp: " + this.timestamp);
     }
 }
