@@ -10,6 +10,10 @@ public class Main{
         }catch(Exception e){
             System.out.println("Error: " + e.getMessage());
         }
+        for(SearchTerm term: searchTerms){
+            System.out.printf("Search Term: %-20s - Timestamp: %-20s%n", term.searchTerm, term.timestamp);
+
+        }
         
     }
 }
